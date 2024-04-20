@@ -10,7 +10,7 @@ let isLoggedin = false   //boolean datatype
 
 //DATATYPES
 /*
-Primitive Datatypes
+Primitive Datatypes  (Call By Value)
 
 1--number => till 2 to the power 53
 2--bigInt
@@ -19,10 +19,12 @@ Primitive Datatypes
 5--null => standalone value ye ek empty value hai  iska matlab wom undefined nahi hai wo khali hai
 6--Undefined => jab koi variable declare kara hai but value assing nahi kari
 7---symbol => uniqueness found karne ke liye use hota hai
+and BigInt => badi value store karne ke  liye
 */
 
 console.log(typeof null)  //undefined ek type hai but null ek object hai  output-->object
 
 /*
-OBJECT
+non Primitive(Call by refrence)
+Array, object and functions
 */
