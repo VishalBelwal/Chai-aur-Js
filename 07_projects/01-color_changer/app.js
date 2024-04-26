@@ -31,11 +31,11 @@ buttons.forEach(function (button) {
         }
 
         else if(event.target.id === 'red'){
-            body.style.backgroundColor = event.target.id;
+            body.style.backgroundColor = `${event.target.id }`;
         }
 
         else if(event.target.id === 'violet'){
-            body.style.backgroundColor = event.target.id;
+            body.style.backgroundColor = `${event.target.id}`;
         }
     })
 });
