@@ -1,0 +1,45 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+h1{
+  font-size: xxx-large;
+  font-weight: 500;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+.card{
+  height: 60vh;
+  width: 30vw;
+  /* background-color: red; */
+  border: 2px solid rgb(201, 227, 250);
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.card-image{
+  margin-top: 30px;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid rgb(186, 211, 233);
+}
+
+.details{
+  padding: 30px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
