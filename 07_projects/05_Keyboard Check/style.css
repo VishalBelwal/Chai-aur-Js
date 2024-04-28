@@ -1,0 +1,22 @@
+nav{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  font-size: larger;
+  font-weight: 700;
+}
+
+a{
+  height: 60px;
+  width: 190px;
+  border: 1px solid black;
+  text-decoration: none;
+  text-wrap: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(195, 192, 192);
+  color: black;
+  border-radius: 24px;
+}
