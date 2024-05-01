@@ -106,7 +106,7 @@ consumePromisefive()
 // getAllUsers();
 
 
-fetch('https://api.github.com/users/Vishalbelwal')
+fetch('https://api.github.com/users/Vishalbelwal')    //its a network based request its a global method
 .then((response) => {
   return response.json()
 })
