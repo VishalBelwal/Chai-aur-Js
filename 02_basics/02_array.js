@@ -6,7 +6,7 @@ const DC_heros = ["Superman", "Flash", "Batman"]
 // console.log(marvel_heros);
 
 // console.log(marvel_heros[3]);
-// console.log(marvel_heros[3][1]);
+// console.log(marvel_heros[3][1]); access the value of char at 1 index in the 3rd index element of an array
 
 // const allHeros = marvel_heros.concat(DC_heros)
 // console.log(allHeros);
